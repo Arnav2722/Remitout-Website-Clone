@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.privacy-poster {
+    height: 600px;
+    background-color: aquamarine;
+    background-image: url("/assets/images/privacy.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    z-index: -9;
+}
+
+.privacy-poster::after {
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 66;
+}
+
+.privacyText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    z-index: 99;
+}
+
+.paras {
+    line-height: 35px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* terms & condition css  */
+.condition-poster {
+    height: 600px;
+    background-color: aquamarine;
+    background-image: url("https://acumenglobal.in/assets/uploads/contents/1637668177Terms-and-conditions.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    z-index: -9;
+}
+
+.condition-poster::after {
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 66;
+}
